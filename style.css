@@ -304,3 +304,281 @@ color:#C7D2FE;
     content:"";
 
 }
+
+/* MINI PROJECTS */
+
+.projects{
+
+    padding:80px 60px;
+
+}
+
+.projects h2{
+
+    text-align:center;
+
+    font-size:45px;
+
+    color:#00D4FF;
+
+    margin-bottom:60px;
+
+}
+
+.project-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+
+}
+
+.project-card{
+
+    background:#1E293B;
+
+    border-radius:18px;
+
+    padding:30px;
+
+    text-align:center;
+
+    transition:.3s;
+
+}
+
+.project-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 0 25px rgba(0,212,255,.5);
+
+}
+
+.project-card h3{
+
+    margin-bottom:20px;
+
+}
+
+.project-card p{
+
+    margin-bottom:25px;
+
+    color:#C7D2FE;
+
+}
+
+.project-card button{
+
+    background:#00D4FF;
+
+    border:none;
+
+    color:white;
+
+    padding:12px 25px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.project-card button:hover{
+
+    background:#00A8CC;
+
+}
+
+/* COMMUNITY */
+
+.community{
+
+padding:80px 60px;
+
+}
+
+.community h2{
+
+text-align:center;
+
+font-size:45px;
+
+color:#00D4FF;
+
+margin-bottom:50px;
+
+}
+
+.community-grid{
+
+display:grid;
+
+grid-template-columns:repeat(2,1fr);
+
+gap:30px;
+
+}
+
+.community-card{
+
+background:#1E293B;
+
+padding:30px;
+
+border-radius:18px;
+
+transition:.3s;
+
+text-align:center;
+
+}
+
+.community-card:hover{
+
+transform:translateY(-8px);
+
+box-shadow:0 0 20px rgba(0,212,255,.5);
+
+}
+
+/* ABOUT */
+
+.about{
+
+padding:80px 100px;
+
+text-align:center;
+
+}
+
+.about h2{
+
+font-size:45px;
+
+color:#00D4FF;
+
+margin-bottom:35px;
+
+}
+
+.about p{
+
+font-size:20px;
+
+line-height:1.8;
+
+margin-bottom:20px;
+
+color:#D1D5DB;
+
+}
+
+/* LOGIN */
+
+.login{
+
+padding:80px;
+
+text-align:center;
+
+}
+
+.login h2{
+
+font-size:45px;
+
+color:#00D4FF;
+
+margin-bottom:40px;
+
+}
+
+.login-box{
+
+background:#1E293B;
+
+width:350px;
+
+margin:auto;
+
+padding:40px;
+
+border-radius:18px;
+
+display:flex;
+
+flex-direction:column;
+
+gap:20px;
+
+}
+
+.login-box input{
+
+padding:14px;
+
+border:none;
+
+border-radius:8px;
+
+font-size:16px;
+
+}
+
+.login-box button{
+
+background:#00D4FF;
+
+border:none;
+
+padding:14px;
+
+border-radius:8px;
+
+color:white;
+
+cursor:pointer;
+
+}
+
+.login-box button:hover{
+
+background:#00A8CC;
+
+}
+
+/* FOOTER */
+
+footer{
+
+margin-top:80px;
+
+padding:40px;
+
+background:#020617;
+
+text-align:center;
+
+}
+
+footer h2{
+
+color:#00D4FF;
+
+margin-bottom:10px;
+
+}
+
+footer p{
+
+margin:8px;
+
+color:#94A3B8;
+
+}
