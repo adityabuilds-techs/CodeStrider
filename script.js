@@ -161,6 +161,6 @@ function completeLesson5(){
 
     alert("🎉 Congratulations!\n\nYou completed the Python Beginner Course!\n\n🏆 Badge Unlocked: Python Explorer\n⭐ Total XP: 100");
 
-    window.location.href="python.html";
+    window.location.href="python-project.html";
 
 }
